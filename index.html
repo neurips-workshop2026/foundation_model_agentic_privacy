@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="author" content="SD4H Organizers" />
+  <meta name="description" content="Workshop on Structured Data for Health." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Home | Structured Data for Health</title>
+
+  <!-- Bootstrap 3.3.1 (matches original) -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" />
+  <!-- Site stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ══════════════════════════════════
+     JUMBOTRON
+══════════════════════════════════ -->
+<div class="jumbotron jumbotron-fluid back">
+  <div class="container">
+    <h1>Structured Data for Health</h1>
+    <h2>NeurIPS 2025 Workshop | December 6/7 | Vancouver, Canada</h2>
+    <h3>Submission Deadline: 15 September 2025 (AOE)</h3>
+    <h3>Contact: <a href="mailto:sd4h.chairs@gmail.com">sd4h.chairs@gmail.com</a></h3>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════
+     TOP NAV
+══════════════════════════════════ -->
+<div class="container">
+  <nav class="top-nav">
+    <ul class="nav nav-pills">
+      <li class="active"><a href="index.html">Home</a></li>
+      <li><a href="call_for_papers.html">Call for Papers</a></li>
+      <li><a href="schedule.html">Schedule</a></li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+          Prior Years <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu">
+          <li><a href="https://timeseries4health.github.io/neurips2025/index.html">NeurIPS 2025</a></li>
+          <li><a href="https://timeseries4health.github.io/iclr2024/index.html">ICLR 2024</a></li>
+          <li><a href="https://timeseries4health.github.io/neurips2022/index.html">NeurIPS 2022</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+<!-- ══════════════════════════════════
+     ANNOUNCEMENTS
+══════════════════════════════════ -->
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+
+      <div class="alert alert-info announcement" role="alert">
+        Final paper decisions to be released October 15th AOE.
+      </div>
+
+      <div class="alert alert-warning announcement" role="alert">
+        Due to strong community engagement, we have extended our deadline to September 15th AOE.
+        Please carefully review submission requirements and instructions on the
+        <a href="call_for_papers.html">Call for Papers</a> page.
+      </div>
+
+      <div class="alert alert-info announcement" role="alert">
+        Interested in joining our <strong>reviewer panel</strong>?
+        Please fill out <a href="https://forms.gle/BLLoxNsqScPaCjUk7">this form</a>.
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════
+     MAIN TWO-COLUMN LAYOUT
+══════════════════════════════════ -->
+<div class="container">
+  <div class="row">
+
+    <!-- Sidebar -->
+    <div class="hidden-xs col-sm-3 col-md-2" id="sidebar">
+      <ul class="nav nav-stacked sidebar-nav" id="sidebar-nav">
+        <li><a href="#about">About SD4H</a></li>
+        <li><a href="#speakers">Speakers</a></li>
+        <li><a href="#organizers">Organizers</a></li>
+        <li><a href="#sponsors">Sponsors</a></li>
+      </ul>
+    </div>
+
+    <!-- Main content -->
+    <div class="col-xs-12 col-sm-9 col-md-9" id="main-content">
+
+      <!-- ── ABOUT ── -->
+      <section id="about">
+        <h2>About SD4H</h2>
+        <hr />
+
+        <p>
+          Structured data lies at the core of modern healthcare, encompassing tabular electronic health
+          records, high-frequency physiological time-series, and irregular clinical measurements collected
+          over time. Together, these modalities provide complementary yet fragmented views of an
+          individual's health, making holistic modeling both essential and challenging. While recent
+          advances in foundation models, multimodal learning, and large language models offer new
+          opportunities to unify these data sources, the health domain presents unique
+          constraints — including privacy, interpretability, irregular sampling, and clinical
+          deployment — that remain largely underexplored.
+        </p>
+
+        <div class="about-img-wrap">
+          <img
+            src="https://structureddata4health.github.io/img/demo.png"
+            alt="Banner illustrating the goal of SD4H"
+            class="img-responsive about-img"
+          />
+        </div>
+
+        <p>
+          Our Structured Data 4 Health workshop unites researchers across structured health data domains
+          (from tabular EHR to biosignals and irregular clinical measurements) to address shared
+          challenges through: (1)&nbsp;unifying fragmented data modalities, (2)&nbsp;bridging geographic
+          and methodological divides, and (3)&nbsp;fostering convergence via interactive formats.
+          By encouraging cross-domain collaboration on holistic and deployable health data modeling,
+          we aim to bridge cutting-edge machine learning with real-world healthcare impact.
+        </p>
+      </section>
+
+      <!-- ── SPEAKERS ── -->
+      <section id="speakers">
+        <h2>Speakers</h2>
+        <hr />
+
+        <div class="row person-row">
+
+          <div class="col-xs-6 col-sm-4 col-md-4">
+            <div class="person-card">
+              <div class="person-photo-wrap">
+                <div class="person-initials">CM</div>
+              </div>
+              <p class="person-name"><a href="https://www.cl.cam.ac.uk/~cm542/">Cecilia Mascolo, PhD</a></p>
+              <p class="person-role">Professor at Cambridge</p>
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-sm-4 col-md-4">
+            <div class="person-card">
+              <div class="person-photo-wrap">
+                <div class="person-initials">JZ</div>
+              </div>
+              <p class="person-name"><a href="https://www.james-zou.com/">James Zou, PhD</a></p>
+              <p class="person-role">Associate Professor at Stanford</p>
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-sm-4 col-md-4">
+            <div class="person-card">
+              <div class="person-photo-wrap">
+                <div class="person-initials">SL</div>
+              </div>
+              <p class="person-name"><a href="https://suinlee.cs.washington.edu/">Su-in Lee, PhD</a></p>
+              <p class="person-role">Professor at UWashington</p>
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-sm-4 col-md-4">
+            <div class="person-card">
+              <div class="person-photo-wrap">
+                <div class="person-initials">SD</div>
+              </div>
+              <p class="person-name"><a href="https://www.linkedin.com/in/sharanyadesai/">Sharanya A. Desai, PhD</a></p>
+              <p class="person-role">Director of Digital Health Algorithms at Samsung Research</p>
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-sm-4 col-md-4">
+            <div class="person-card">
+              <div class="person-photo-wrap">
+                <div class="person-initials">SH</div>
+              </div>
+              <p class="person-name"><a href="https://hsd1503.github.io/">Shenda Hong, PhD</a></p>
+              <p class="person-role">Assistant Professor at Peking University</p>
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-sm-4 col-md-4">
+            <div class="person-card">
+              <div class="person-photo-wrap">
+                <div class="person-initials">SS</div>
+              </div>
+              <p class="person-name"><a href="https://engineering.jhu.edu/faculty/suchi-saria/">Suchi Saria, PhD</a></p>
+              <p class="person-role">Associate Professor at Johns Hopkins, CEO of Bayesian Health</p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ── ORGANIZERS ── -->
+      <section id="organizers">
+        <h2>Organizers</h2>
+        <hr />
+
+        <div class="row person-row">
+
+          <div class="col-xs-6 col-sm-4 col-md-3">
+            <div class="person-card">
+              <div class="person-photo-wrap">
+                <div class="person-initials">MX</div>
+              </div>
+              <p class="person-name"><a href="https://maxxu05.github.io/">Maxwell Xu, PhD</a></p>
+              <p class="person-role">Google, Research Scientist</p>
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-sm-4 col-md-3">
+            <div class="person-card">
+              <div class="person-photo-wrap">
+                <div class="person-initials">HJ</div>
+              </div>
+              <p class="person-name"><a href="https://sites.google.com/view/hyewon-jeong/">Hyewon Jeong, MD</a></p>
+              <p class="person-role">MIT, PhD Student</p>
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-sm-4 col-md-3">
+            <div class="person-card">
+              <div class="person-photo-wrap">
+                <div class="person-initials">GN</div>
+              </div>
+              <p class="person-name"><a href="https://girishvn.github.io/">Girish Narayanswamy</a></p>
+              <p class="person-role">UWashington, PhD Student</p>
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-sm-4 col-md-3">
+            <div class="person-card">
+              <div class="person-photo-wrap">
+                <div class="person-initials">WM</div>
+              </div>
+              <p class="person-name"><a href="https://wantingmao01.github.io/">Wanting Mao</a></p>
+              <p class="person-role">UIUC, PhD Student</p>
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-sm-4 col-md-3">
+            <div class="person-card">
+              <div class="person-photo-wrap">
+                <div class="person-initials">ST</div>
+              </div>
+              <p class="person-name"><a href="http://www.cs.toronto.edu/~stonekaboni/">Sana Tonekaboni, PhD</a></p>
+              <p class="person-role">MIT-Harvard Broad, Postdoc</p>
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-sm-4 col-md-3">
+            <div class="person-card">
+              <div class="person-photo-wrap">
+                <div class="person-initials">JL</div>
+              </div>
+              <p class="person-name"><a href="https://liu-jc.github.io/">Juncheng Liu, PhD</a></p>
+              <p class="person-role">Meta, Research Scientist</p>
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-sm-4 col-md-3">
+            <div class="person-card">
+              <div class="person-photo-wrap">
+                <div class="person-initials">DW</div>
+              </div>
+              <p class="person-name"><a href="https://dongxiaw.github.io/online-cv/">Dongxia Wu, PhD</a></p>
+              <p class="person-role">Stanford, Postdoc</p>
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-sm-4 col-md-3">
+            <div class="person-card">
+              <div class="person-photo-wrap">
+                <div class="person-initials">PL</div>
+              </div>
+              <p class="person-name"><a href="https://patricklanger.info/">Patrick Langer, PhD</a></p>
+              <p class="person-role">Meta, Research Scientist</p>
+            </div>
+          </div>
+
+          <div class="col-xs-6 col-sm-4 col-md-3">
+            <div class="person-card">
+              <div class="person-photo-wrap">
+                <div class="person-initials">JR</div>
+              </div>
+              <p class="person-name"><a href="https://rehg.org/">James M. Rehg, PhD</a></p>
+              <p class="person-role">UIUC, Professor</p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- ── SPONSORS ── -->
+      <section id="sponsors">
+        <h1>Sponsors</h1>
+        <hr />
+
+        <h2 class="sponsor-level">Bronze Level</h2>
+
+        <div class="sponsor-logos">
+          <a href="https://www.eightsleep.com/" target="_blank">
+            <img
+              src="https://structureddata4health.github.io/img/Eight_Sleep_logo.png"
+              alt="Eight Sleep Logo"
+              class="sponsor-logo"
+            />
+          </a>
+        </div>
+
+        <hr />
+      </section>
+
+    </div><!-- /main-content -->
+  </div><!-- /row -->
+</div><!-- /container -->
+
+<!-- Scripts -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
