@@ -85,17 +85,17 @@
         <h2>About the Workshop</h2>
         <hr />
 
-        <p>
-          Foundation models, large language models, and agentic systems are rapidly reshaping the privacy landscape of machine learning. 
-          A common feature across these paradigms is their profound and intricate opacity: for a variety of reasons (including fierce commercial competition, the scale of training data,
-          and confidentiality constraints), very little information about these systems is publicly disclosed. Large language models go through complex post-training and alignment pipelines 
-          on datasets crafted from human-AI interactions, and agentic systems introduce long-horizon data use, tool-mediated information flows, and data repurposing across contexts that users
-          and institutions may not fully anticipate or overview. The lack of transparency of these systems, hence, creates new pathways for privacy failures arising from memorization, retrieval,
-          tool use, memory, and cross-context information flow. At the same time, the assessment of these privacy risks is made increasingly difficult: researchers cannot examine the internal 
-          structure of these models, inspect the data, audit every step of the training pipeline, or retrain shadow models to evaluate the effect of privacy interventions. Together, 
-          these developments challenge existing definitions, benchmarks, mitigation strategies, governance frameworks, and legal notions of consent, purpose limitation, and accountability.  
-        </p>
-
+  
+        <p> Foundation models, large language models, and agentic systems are rapidly reshaping the privacy landscape of machine learning. Their growing opacity—driven by commercial
+          competition, large and undisclosed training datasets, complex post-training pipelines, and confidentiality constraints—creates new privacy risks through memorization,
+          retrieval, persistent memory, tool use, and cross-context information flows. At the same time, limited access to model internals, training data, and development
+          pipelines makes these risks increasingly difficult to assess using existing methods. This workshop will bring together researchers from privacy, machine learning,
+          human-computer interaction (HCI), law, and agentic AI to ask: <i>What should privacy mean when increasingly opaque models are trained, adapted, deployed, 
+            and allowed to act on sensitive information?</i> Centered on defining privacy risks and developing methods to evaluate, audit, mitigate, and govern them, 
+          the workshop welcomes work on opacity, memorization, model-mediated disclosure, tool-mediated leakage, multi-step agent behavior, benchmarks, threat models, auditing tools, 
+          mitigations, formal guarantees, and deployment studies. By connecting technical research with questions of consent, purpose limitation, control, disclosure, 
+          and accountability, we aim to establish a shared research agenda and practical foundations for trustworthy AI deployment. </p>  
+      
         <!-- <div class="about-img-wrap">
           <img
             src="https://structureddata4health.github.io/img/demo.png"
@@ -103,28 +103,7 @@
             class="img-responsive about-img"
           />
         </div> -->
-
-        <p>
-          This workshop will provide a timely forum for examining memorization and privacy risks across opaque models, with particular emphasis on how these risks should be defined, measured, 
-          mitigated, and governed in real-world deployment settings. It will bring together researchers from privacy, machine learning, human-computer interaction (HCI), law, and agentic AI 
-          to examine a central question: <i> what should privacy mean when increasingly opaque models are trained, adapted, deployed, and allowed to act on increasingly sensitive information?</i>
-          From a technical perspective, we need new definitions, evaluation strategies, threat models, mitigations, and formal guarantees for systems that may memorize training data and that can 
-          only be partially accessed by auditors. From a legal, policy, and deployment perspective, we must also ask: who is responsible when private information is exposed through a model output 
-          or an agent-to-agent interaction? What types of control mechanisms are available to each stakeholder within their respective scope of authority? How should privacy risks be disclosed to 
-          users and governed across the AI lifecycle? By connecting these technical and governance questions, the workshop aims to develop a shared research agenda for privacy in real-world 
-          AI deployments.
-
-        </p>
-
-        <p>
-          Our workshop will center on two complementary pillars: defining privacy risks in opaque models, and developing methods to evaluate, audit, and mitigate privacy failures
-          in deployed foundation-model systems, including failures driven by memorization, retrieval, memory persistence, and tool-mediated information flow. We welcome submissions 
-          on evaluating and defining opacity, reverse engineering of large models, model-mediated disclosure, memorization, tool-mediated leakage, and failures that emerge from multi-step 
-          agent behavior rather than isolated model responses. We are especially interested in work that makes these risks measurable, including benchmarks, auditing tools, deployment 
-          studies, and open-source systems. By engaging researchers, regulators, applied scientists, and industry practitioners, the workshop will ground privacy threat models in realistic 
-          settings where AI systems interact with real user data. Our goal is to develop practical foundations for trustworthy and accountable AI deployment before unsafe privacy patterns 
-          become entrenched.
-        </p>
+        
       </section>
 
       <!-- ── SPEAKERS ── -->
@@ -203,6 +182,31 @@
         <hr />
 
         <div class="row person-row">
+          
+          <div class="col-xs-6 col-sm-4 col-md-3">
+            <div class="person-card">
+              <div class="person-photo-wrap">
+                <img src="Lena_Stempfle_picture.png" alt="Lena Stempfle" class="person-photo">
+              </div>
+              <p class="person-name"><a href="https://lenastempfle.github.io/lenastempfle/">Lena Stempfle, PhD</a></p>
+              <p class="person-role">MIT and Broad Institute</p>
+            </div>
+          </div>
+
+          <!-- Sana -->
+          <div class="col-xs-6 col-sm-4 col-md-3">
+            <div class="person-card">
+              <div class="person-photo-wrap">
+                <img src="sana_lab.JPG" alt="Sana Tonekaboni" class="person-photo">
+              </div>
+              <p class="person-name">
+                <a href="http://www.cs.toronto.edu/~stonekaboni/">
+                  Sana Tonekaboni, PhD
+                </a>
+              </p>
+              <p class="person-role">Boralis and MIT</p>
+            </div>
+          </div>
 
           <div class="col-xs-6 col-sm-4 col-md-3">
             <div class="person-card">
@@ -234,30 +238,6 @@
             </div>
           </div>
 
-          <div class="col-xs-6 col-sm-4 col-md-3">
-            <div class="person-card">
-              <div class="person-photo-wrap">
-                <img src="Lena_Stempfle_picture.png" alt="Lena Stempfle" class="person-photo">
-              </div>
-              <p class="person-name"><a href="https://lenastempfle.github.io/lenastempfle/">Lena Stempfle, PhD</a></p>
-              <p class="person-role">MIT and Broad Institute</p>
-            </div>
-          </div>
-
-          <!-- Sana -->
-          <div class="col-xs-6 col-sm-4 col-md-3">
-            <div class="person-card">
-              <div class="person-photo-wrap">
-                <img src="sana_lab.JPG" alt="Sana Tonekaboni" class="person-photo">
-              </div>
-              <p class="person-name">
-                <a href="http://www.cs.toronto.edu/~stonekaboni/">
-                  Sana Tonekaboni, PhD
-                </a>
-              </p>
-              <p class="person-role">Boralis and MIT</p>
-            </div>
-          </div>
           
           <!-- Maryam -->
           <div class="col-xs-6 col-sm-4 col-md-3">
@@ -266,10 +246,7 @@
                 <img src="IMG_1928.jpeg" alt="Maryam Molamohammadi" class="person-photo">
               </div>
               <p class="person-name">
-                <a href="https://liu-jc.github.io/">
-                  Maryam Molamohammadi
-                </a>
-              </p>
+                <a href="https://liu-jc.github.io/">Maryam Molamohammadi</a></p>
               <p class="person-role">Mila - Quebec Artificial Intelligence Institute</p>
             </div>
           </div>
