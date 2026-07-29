@@ -42,21 +42,29 @@ hr {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 60vh; /* Set desired header height, e.g., 60% of viewport height */
+  height: 40vh; /* Set desired header height, e.g., 60% of viewport height */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .jumbotron .container {
-  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for the text box */
-  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.85); /* Light semi-transparent background */
+  color: #000000; /* Text color set to black */
+  padding: 30px;
   border-radius: 10px;
-  text-align: center; /* Center-align text within the container */
-  max-width: 80%; /* Adjust as needed */
-  width: 100%; /* Ensure container takes full width of parent up to max-width */
+  text-align: center;
+  max-width: 80%;
+  width: 100%;
 }
 
+/* Ensure headings and links inside the box are also black */
+.jumbotron .container h1,
+.jumbotron .container h2,
+.jumbotron .container h3,
+.jumbotron .container a {
+  color: #000000;
+}
 .jumbotron h1 {
   font-size: 3.5em; /* Adjust as needed */
   margin-bottom: 20px;
@@ -70,11 +78,6 @@ hr {
 .jumbotron h3 {
   font-size: 1.8em; /* Adjust as needed */
   margin-bottom: 10px;
-}
-
-.back a {
-  color: #fff;
-  text-decoration: underline;
 }
 
 /* Top navigation: classic Bootstrap-pills look */
