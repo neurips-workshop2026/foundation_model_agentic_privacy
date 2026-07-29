@@ -38,19 +38,19 @@ hr {
 
 /* Custom Header Styling */
 .back {
-  background-image: url('Background_header.png'); /* Replace with your actual image path */
+  background-image: url('Background_header.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 40vh; /* Set desired header height, e.g., 60% of viewport height */
+  height: 40vh; /* Header height reduced by 1/3 */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .jumbotron .container {
-  background-color: rgba(255, 255, 255, 0.85); /* Light semi-transparent background */
-  color: #000000; /* Text color set to black */
+  background-color: rgba(255, 255, 255, 0.85); /* Light background */
+  color: #000000; /* Black text */
   padding: 30px;
   border-radius: 10px;
   text-align: center;
@@ -58,26 +58,27 @@ hr {
   width: 100%;
 }
 
-/* Ensure headings and links inside the box are also black */
+/* Force all text inside the box to be black */
 .jumbotron .container h1,
 .jumbotron .container h2,
 .jumbotron .container h3,
 .jumbotron .container a {
   color: #000000;
 }
-.jumbotron h1 {
-  font-size: 3.5em; /* Adjust as needed */
-  margin-bottom: 20px;
-}
 
-.jumbotron h2 {
-  font-size: 2.5em; /* Adjust as needed */
+.jumbotron h1 {
+  font-size: 2.5em; /* Slightly adjusted to fit smaller header height */
   margin-bottom: 15px;
 }
 
-.jumbotron h3 {
-  font-size: 1.8em; /* Adjust as needed */
+.jumbotron h2 {
+  font-size: 1.8em;
   margin-bottom: 10px;
+}
+
+.jumbotron h3 {
+  font-size: 1.3em;
+  margin-bottom: 8px;
 }
 
 /* Top navigation: classic Bootstrap-pills look */
