@@ -343,3 +343,146 @@ section hr {
     font-size: 18px;
   }
 }
+
+/* ========================================
+   WORKSHOP SCHEDULE
+======================================== */
+
+.schedule-table {
+  margin-top: 20px;
+  background-color: #ffffff;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.schedule-table > thead > tr > th {
+  padding: 13px 15px;
+  vertical-align: middle;
+  color: #2f4f68;
+  background-color: #edf3f7;
+  border-color: #d7e1e8;
+  font-weight: 600;
+}
+
+.schedule-table > thead > tr:first-child > th {
+  font-size: 17px;
+  letter-spacing: 0.2px;
+}
+
+.schedule-table > tbody > tr > td {
+  padding: 14px 15px;
+  vertical-align: middle;
+  border-color: #dfe6eb;
+  line-height: 1.5;
+}
+
+.schedule-time-heading {
+  width: 85px;
+}
+
+.schedule-time {
+  width: 85px;
+  white-space: nowrap;
+  text-align: center;
+  color: #37546b;
+  font-weight: 600;
+}
+
+.schedule-event {
+  min-width: 260px;
+}
+
+.session-icon {
+  display: inline-block;
+  width: 20px;
+  margin-right: 7px;
+  text-align: center;
+  color: #52738c;
+}
+
+.session-duration {
+  color: #6f7d87;
+  white-space: nowrap;
+}
+
+/* Subtle session colors */
+
+.schedule-opening {
+  background-color: #f6f9fb;
+}
+
+.schedule-talk {
+  background-color: #f1f6f9;
+}
+
+.schedule-break {
+  background-color: #faf8f1;
+}
+
+.schedule-discussion {
+  background-color: #f5f4f8;
+}
+
+.schedule-spotlight {
+  background-color: #f4f6f9;
+}
+
+.schedule-panel {
+  background-color: #eef4f6;
+}
+
+.schedule-lunch {
+  background-color: #f8f6ef;
+}
+
+/* Slight visual separation between morning and afternoon */
+
+.schedule-table > thead > tr > th:nth-child(3),
+.schedule-table > tbody > tr > td:nth-child(3) {
+  border-left-width: 2px;
+  border-left-color: #c8d5de;
+}
+
+/* Subtle hover effect */
+
+.schedule-table > tbody > tr > td {
+  transition: background-color 0.15s ease;
+}
+
+.schedule-table > tbody > tr:hover > td {
+  filter: brightness(0.985);
+}
+
+/* Note below the schedule */
+
+.schedule-note {
+  margin-top: 10px;
+  color: #71808b;
+  font-size: 14px;
+}
+
+.schedule-note .fa {
+  margin-right: 5px;
+  color: #52738c;
+}
+
+/* Mobile layout */
+
+@media (max-width: 767px) {
+  .schedule-table > thead > tr > th,
+  .schedule-table > tbody > tr > td {
+    padding: 10px;
+  }
+
+  .schedule-event {
+    min-width: 230px;
+  }
+
+  .schedule-time {
+    width: 70px;
+  }
+
+  .session-icon {
+    margin-right: 4px;
+  }
+}
