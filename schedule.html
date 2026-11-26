@@ -243,6 +243,78 @@
     The schedule is tentative and may be updated.
   </p>
 </section>
+
+<section id="invited-talks">
+  <h2>Invited Talks</h2>
+  <hr />
+
+  <article id="talk-aurelien-bellet">
+    <h3><a href="index.html#speaker-aurelien-bellet">Aurélien Bellet</a></h3>
+    <h4>Post-Hoc Privacy Evaluation of Large Opaque Models: From Membership Inference to DP Auditing</h4>
+    <p>
+      Large-scale AI models are increasingly difficult to assess for privacy: their
+      training data and pipelines are often inaccessible, and rigorous evaluation
+      methods based on repeated retraining are computationally prohibitive. How can
+      we nevertheless obtain statistically principled privacy assessments of such models?
+    </p>
+    <p>
+      I will present two complementary approaches to post-hoc privacy evaluation,
+      both operating on fixed sets of known training members and non-members,
+      without requiring access to the training process, retraining models, or
+      controlled insertion of audit data. The first addresses population-level
+      privacy evaluation through membership inference attacks (MIAs), while the
+      second focuses on worst-case privacy leakage through differential privacy
+      auditing, providing empirical lower bounds on privacy guarantees. Both
+      approaches leverage ideas from causal inference to make post-hoc privacy
+      evaluation more rigorous, addressing biases and confounding in the evaluation
+      process and enabling meaningful assessments of opaque models from observational
+      access alone.
+    </p>
+    <p>
+      Finally, I will introduce PANAME, an open-source privacy auditing library
+      developed jointly by CNIL, ANSSI, PEReN, and Inria. Motivated by recent
+      regulatory developments surrounding the application of GDPR to AI models,
+      PANAME aims to translate research advances into operational tools for
+      assessing models and supporting compliance-related analysis, thereby bridging
+      the gap between methodological advances, regulatory expectations, and
+      practical privacy assessment.
+    </p>
+  </article>
+
+  <article id="talk-carmela-troncoso">
+    <h3><a href="index.html#speaker-carmela-troncoso">Carmela Troncoso</a></h3>
+    <p>Title and abstract TBD.</p>
+  </article>
+
+  <article id="talk-florence-gsell">
+    <h3><a href="index.html#speaker-florence-gsell">Florence G’sell</a></h3>
+    <p>Title and abstract TBD.</p>
+  </article>
+
+  <article id="talk-pierre-fernandez">
+    <h3><a href="index.html#speaker-pierre-fernandez">Pierre Fernandez</a></h3>
+    <h4>Watermarks and their radioactivity</h4>
+    <p>
+      We usually know little about the data that large models are trained on, which
+      makes it hard to check whether someone’s content was used for training. This
+      talk shows how watermarks can help. A watermark is a hidden signal added to
+      images or text, and some of these signals are “radioactive”: a model trained
+      on marked data keeps a trace of it. This was first shown for image classifiers
+      (Sablayrolles et al., ICML 2020), then for diffusion models trained on
+      watermarked images (Wang et al., ICLR 2024) and for language models trained on
+      watermarked text (Gu et al., ICLR 2024). It can be used to detect model
+      distillation (Sander et al., NeurIPS 2024), to prove that documents were used
+      for pretraining (Wei et al., ACL Findings 2024), or to show that a dataset is
+      used by a RAG system (Jovanovic et al., ICLR 2025). I will explain how these
+      work, what they can tell us about model training data, and where they break.
+    </p>
+  </article>
+
+  <article id="talk-reza-shokri">
+    <h3><a href="index.html#speaker-reza-shokri">Reza Shokri</a></h3>
+    <p>Title and abstract TBD.</p>
+  </article>
+</section>
           
     </div><!-- /main-content -->
   </div><!-- /row -->
